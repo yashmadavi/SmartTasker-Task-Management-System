@@ -14,7 +14,7 @@ public class EmailUtil {
 	public void sendMail(String to) {
 		SimpleMailMessage message = new SimpleMailMessage();
 		message.setTo(to);
-		message.setFrom("yashmadavi93@gmail.com");
+		message.setFrom("email");
 		message.setSubject("Conformation email");
 		message.setText("mail sented successfully");
 		
